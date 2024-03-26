@@ -1,4 +1,11 @@
 'use strict'
+
+const btns=document.querySelectorAll('.btn');
+for(const btn of btns){
+  btn.addEventListener('click',{
+    
+  })
+}
 let choices=['rock', 'paper', 'scissors'];
 
 function getComputerChoice(){
@@ -8,7 +15,8 @@ function getComputerChoice(){
 }
 
 function getPlayerChoice(){
-    let choice=prompt("what is your choice: rock, paper, scissors");
+    // let choice=prompt("what is your choice: rock, paper, scissors");
+    let choice=
     let playerChoice=choice.toLowerCase();
     return playerChoice;
 }
@@ -63,4 +71,7 @@ function playGame(){
       }
   }
 
-playGame();
+// playGame();
+
+// const computerScore=document.querySelector('.computerScores .score');
+// console.log(computerScore.textContent);

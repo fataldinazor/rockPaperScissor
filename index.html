@@ -1,12 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock, Paper, Scissors</title>
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="title">Sample</header>
+
+    <section class="options">
+      <button class="btn" id="rock">option1</button>
+      <button class="btn" id="paper">option2</button>
+      <button class="btn" id="scissors">option3</button>
+    </section>
+
+    <section class="scores">
+        <div class="playerScores">
+            <div class="name">Player</div>
+            <div class="score">0</div>
+        </div>
     
-</body>
-<script src="./script.js"></script>
+        <div class="computerScores">
+            <div class="name">Computer</div>
+            <div class="score">0</div>
+        </div>
+    </section>
+
+    <footer>
+        Rock, Paper, Scissors. All Rights Reserved 2024
+    </footer>
+  </body>
+  <script src="./script.js"></script>
 </html>
