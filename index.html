@@ -7,16 +7,16 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="title">Sample</header>
+    <header class="title">Rock Paper Scissors</header>
     <header class="mainContent">
       <section class="options">
-        <button class="btn" id="rock">option1</button>
-        <button class="btn" id="paper">option2</button>
-        <button class="btn" id="scissors">option3</button>
+        <button class="btn" id="rock">Rock</button>
+        <button class="btn" id="paper">Paper</button>
+        <button class="btn" id="scissors">Scissors</button>
       </section>
 
       <section class="round">
-        <h1>Round <span class="roundNo">1</span></h1>
+        <h1>Round <span class="roundNo"></span></h1>
       </section>
       <section class="roundWinner">
         Play the first round
@@ -24,7 +24,7 @@
       <section class="scores">
           <div class="playerScores">
               <div class="name">Player</div>
-              <div class="score">1</div>
+              <div class="score">0</div>
           </div>
       
           <div class="computerScores">
@@ -32,10 +32,18 @@
               <div class="score">0</div>
           </div>
       </section>
+
+      <section class="overlay">
+        <div class="block">
+          <div class="message">Winner</div>
+          <button class="retry">Retry</button>
+        </div>
+      </section>
+
     </header>
 
     <footer>
-        Rock, Paper, Scissors. All Rights Reserved 2024
+        Rock Paper Scissors. All Rights Reserved 2024
     </footer>
   </body>
   <script src="./script.js"></script>
